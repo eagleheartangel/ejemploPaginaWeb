@@ -160,6 +160,7 @@ h2 {
 }
 p {
   color: var(--p-color);
+  font-size: 20px;
 }
 #footer{
   width: 100%;
