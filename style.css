@@ -1,6 +1,6 @@
 /* Datos para el modo oscuro */
 :root {
-  --bg-color: #fff;
+  --bg-color: rgb(255, 255, 255);
   --h2-color: #000000;
   --p-color: #2e2e2e;
   --background-cajaprincipal: rgb(216, 216, 216);
@@ -11,12 +11,12 @@
 
 [tema="negro"] {
   --bg-color: #000;
-  --h2-color: #ffffff;
-  --p-color: #f8f1f1;
+  --h2-color: #fffbe9;
+  --p-color: #fffbe9;
   --background-cajaprincipal: rgb(39, 39, 39);
   --bgheader: rgb(166, 45, 202);
   --colorlogo: springgreen;
-  --bglinks: rgb(180, 180, 180);
+  --bglinks: rgb(255, 255, 230);
 }
 /* Termnia datos modo oscuro */
 
@@ -65,7 +65,7 @@ body {
 }
 
 #header li a {
-  color: snow;
+  color: var(--bglinks);
   text-decoration: none;
 }
 
@@ -121,7 +121,7 @@ input:checked + .slider-theme {
 
 .slider-theme:before {
   content: "";
-  background-color: #fff;
+  background-color: rgb(255, 250, 228);
   position: absolute;
   width: 20px;
   height: 20px;
